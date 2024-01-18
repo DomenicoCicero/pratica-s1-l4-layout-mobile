@@ -1,0 +1,240 @@
+/* IMPOSTAZIONI GENERALI */
+.general-container {
+  background-image: url(/assets/img/sfondo.png);
+  background-size: 100vh;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+
+/* HEADER */
+header {
+  background: linear-gradient(to bottom, #0099bb, #006688);
+  margin: 0;
+  max-width: 90%;
+  margin-inline: auto;
+  margin-block-start: 5%;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.img-logo {
+  max-width: 70%;
+  margin-inline: auto;
+  position: relative;
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  margin-block-end: -16%;
+}
+
+img {
+  width: 98%;
+  height: 47%;
+  object-fit: contain;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-block-start: 9%;
+}
+
+header h2 {
+  font-size: 139%;
+  color: white;
+  padding-inline-start: 8%;
+}
+
+.div-header-ul {
+  margin-block-start: 7%;
+  text-align: center;
+  font-size: 160%;
+}
+
+header ul {
+  padding-block-end: 7%;
+}
+
+header ul li {
+  margin-block-end: 5%;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+/* MAIN */
+
+main {
+  background-color: white;
+  margin: 0;
+  max-width: 90%;
+  margin-inline: auto;
+  margin-block-start: 5%;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+main h3 {
+  font-size: 220%;
+  margin: 5%;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding-block: 10%;
+  margin-block-end: 0;
+}
+
+.p-with-icons {
+  font-size: 110%;
+  margin-inline: 6%;
+  color: #94aa99;
+}
+
+main p span {
+  color: #aa2072;
+}
+
+.second-p {
+  font-size: 144%;
+  margin-inline: 6%;
+  margin-block: 8%;
+}
+
+main ul {
+  font-size: 144%;
+  margin-inline: 6%;
+  margin-block: 8%;
+  list-style-type: disc;
+  padding-inline-start: 11%;
+}
+
+.tag {
+  border: 1px solid #908e8f;
+  background-color: #eeeeee;
+  border-radius: 6px;
+}
+
+main ol {
+  font-size: 144%;
+  margin-inline: 6%;
+  margin-block: 8%;
+  list-style-type: decimal;
+  padding-inline-start: 11%;
+}
+
+main li {
+  padding-block-end: 3%;
+}
+
+caption {
+  font-size: 144%;
+  font-weight: bold;
+  text-align: center;
+}
+
+thead {
+  background-color: #3366cc;
+}
+
+thead tr {
+  font-size: 150%;
+}
+
+thead tr th {
+  color: white;
+}
+
+tbody {
+  font-size: 130%;
+  text-align: center;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #eeeeee;
+}
+
+tbody td tr {
+  height: 20%;
+}
+
+table {
+  border-bottom: 2px solid #3366cc;
+  margin-inline: 6%;
+}
+
+iframe {
+  width: 94%;
+  border-radius: 24px;
+}
+
+.div-iframe {
+  padding-inline-start: 6%;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+article {
+  background-color: #ddddde;
+  margin-block: 8%;
+  margin-inline: 6%;
+  padding-block-end: 10%;
+}
+
+h4 {
+  font-size: 158%;
+  text-align: center;
+  font-weight: bold;
+  padding-block: 10%;
+}
+
+form {
+  text-align: center;
+}
+
+input {
+  border: none;
+  border-bottom: 2px dashed black;
+  height: 30px;
+}
+
+button {
+  background-color: #3366cc;
+  border: none;
+  color: white;
+  height: 30px;
+}
+
+.second-article {
+  padding-block-start: 10%;
+}
+
+article a {
+  font-size: 144%;
+  margin-inline: 6%;
+  margin-block: 8%;
+}
+
+h6 {
+  text-align: right;
+  font-size: 18px;
+  padding-inline-end: 10%;
+}
+
+/* FOOTER */
+
+footer {
+  background: linear-gradient(to bottom, #005566, #2a3338);
+  margin: 0;
+  max-width: 90%;
+  margin-inline: auto;
+  margin-block-start: 5%;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+  padding-block: 3%;
+}
+
+footer p {
+  text-align: center;
+  color: white;
+}
+
+footer p a {
+  color: #ff00fe;
+}
