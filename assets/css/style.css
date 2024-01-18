@@ -70,6 +70,7 @@ main {
   margin-inline: auto;
   margin-block-start: 5%;
   box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+  padding-block-end: 5%;
 }
 
 main h3 {
@@ -225,7 +226,7 @@ footer {
   margin: 0;
   max-width: 90%;
   margin-inline: auto;
-  margin-block-start: 5%;
+  margin-block: 5%;
   box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
   padding-block: 3%;
 }
